@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 May 2022 22:22:54 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo &#43; Github 网站搭建教程</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Thu, 26 May 2022 22:22:54 +0800</pubDate>
+      
+      <guid>http://example.org/posts/first-post/</guid>
+      <description>前言 本文章记录第一次搭建个人博客的文章。以下为我在使用Hugo搭建个人博客时总结出的步骤。仅以此文，希望能让其他小白，包括以后想重新搭建的我，少踩一些坑。
+基础概念 什么是Hugo? Hugo是一个用来生成静态网站的工具，使用Go语言编写的。从网上很多人的评论看，Hugo的显著优点就是部署快！
+什么是Gitee? Gitee(码云) 是开源中国推出的基于 Git 的代码托管服务，类似于Github。最基础的用法，就是使用它保管开发者的代码，进行版本控制。
+在搭建时，使用Hugo打包构建静态网站，输出一个纯静态的资源包。将这个静态资源包上传到Gitee，就能实现站点部署。
+搭建步骤 1.安装Hugo （1）在线安装 ​	教程： Quick Start | Hugo (gohugo.io)
+（2）离线安装 ​	① 下载hugo离线包并解压
+​	② 配置环境变量
+​	③ 验证是否安装成功（输入下面代码）
+hugo version 2.生成站点基础框架 hugo new site mysite 3.安装主题 4.打包构建 hugo -D 5.建立Gitee仓库并上传资源包 git init git add . git commit -m &amp;#34;first-1&amp;#34; git remote add origin ${git_address} git push -f origin master </description>
+    </item>
+    
+  </channel>
+</rss>
